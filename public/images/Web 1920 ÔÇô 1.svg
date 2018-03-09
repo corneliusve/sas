@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Web_1920_1);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        filter: url(#Path_2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="0.58" x2="0.952" y2="0.576" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#738bd6"/>
+      <stop offset="1" stop-color="#f46969"/>
+    </linearGradient>
+    <filter id="Path_2" x="-593.008" y="356.672" width="2605.492" height="823" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" class="cls-1">
+    <rect class="cls-3" width="1920" height="1080"/>
+    <path id="Path_1" data-name="Path 1" class="cls-2" d="M0,755.523s759.762-451.93,1313.121-241.687,817.52-210.664,817.52-210.664v778H0Z" transform="translate(-20.393 -168.006)"/>
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <path id="Path_2-2" data-name="Path 2" class="cls-2" d="M0,755.523s913.042-451.93,1578.04-241.687,982.453-210.664,982.453-210.664v778H0Z" transform="translate(-570.51 76)"/>
+    </g>
+  </g>
+</svg>

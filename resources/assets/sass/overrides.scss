@@ -1,0 +1,205 @@
+.dropdown{
+    position: relative;
+
+    .dropdown-menu{
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        z-index: 1000;
+        background-color: white;
+        min-width: 200px;
+        text-align: left;
+        box-shadow: 0 0 1px rgba(57,70,78,.15), 0 20px 55px -8px rgba(57,70,78,.15);
+    }
+
+    &.is-aligned-right .dropdown-menu{
+        right: 0;
+        left: auto;
+    }
+
+    &.is-open .dropdown-menu {
+        display: block;
+    }
+
+}
+
+//typographie
+
+
+
+.is-bold { font-weight: 500; }
+
+// form
+
+form {
+
+    .field {
+
+        .control {
+
+            input.input {
+
+                color: black;
+                border: none;
+                height: 45px;
+                box-shadow: none;
+                border-radius: 0;
+                transition: 300ms;
+                border-radius: 5px;
+                background-color: $form-color;
+                padding-left: 20px;
+
+                &:hover {
+
+                    box-shadow: 0px 5px 10px rgba(gray, .2);
+
+                }
+
+                &:active {
+
+                    box-shadow: 0px 5px 10px rgba(gray, .2);
+
+                }
+
+                &:focus {
+
+                    box-shadow: 0px 5px 10px rgba(gray, .2);
+
+                }
+
+            }
+
+            textarea.textarea {
+
+                color: black;
+                border: none;
+                box-shadow: none;
+                transition: 300ms;
+                border-radius: 5px;
+                background-color: $form-color;
+                padding-left: 20px;
+
+                &:hover {
+
+                    box-shadow: 0px 5px 10px rgba(gray, .2);
+
+                }
+
+                &:active {
+
+                    box-shadow: 0px 5px 10px rgba(gray, .2);
+
+                }
+
+                &:focus {
+
+                    box-shadow: 0px 5px 10px rgba(gray, .2);
+
+                }
+
+            }
+
+            .select {
+
+                select {
+
+                    background-color: $form-color;
+                    border-radius: 5px;
+                    border: none;
+                    height: 45px;
+
+                }
+
+            }
+
+        }
+    }
+
+    .select {
+
+        border-radius: 5px;
+        background-color: $form-color;
+        border: none;
+
+        select {
+
+            border-radius: 5px;
+            background-color: $form-color;
+            border: none;
+            padding-left: 15px;
+            padding-right: 20px;
+            height: 45px;
+
+            &:hover {
+
+                box-shadow: 0px 5px 10px rgba(gray, .2);
+
+            }
+
+            &:active {
+
+                box-shadow: 0px 5px 10px rgba(gray, .2);
+
+            }
+
+
+            &:focus {
+
+                box-shadow: 0px 5px 10px rgba(gray, .2);
+
+            }
+
+        }
+
+    }
+}
+
+//navigation
+
+
+.navbar { min-height: 4.5rem; background: none; }
+
+a.navbar-item { color: white; transition: 300ms; }
+
+a.navbar-item { color: white; transition: 300ms; }
+
+a.navbar-item:hover { background: none; color: white; margin-top: -5px; }
+
+a.navbar-item span.seperator { display: block; height: 100%; width: 1px; background-color: white; }
+
+a.no-hover:hover { margin-top: 0px; }
+
+
+//hero header
+
+
+section.hero { background-size: cover; background-position: center center; }
+
+
+//icons
+
+span.icon {
+
+    position: relative;
+
+    a {
+
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+
+        img {
+
+            max-height: 100%;
+            min-width: auto;
+
+        }
+
+    }
+
+
+}
